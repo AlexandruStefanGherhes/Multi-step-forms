@@ -93,7 +93,7 @@ const Info = () =>{
                 placeholder="e.g +1 234 567 890"
                 onChange={(e)=>setPhone(e.target.value)}/>
             </div>
-            <div className="flex sm:relative absolute bg-white sm:w-[100%] w-[100vw] h-[10vh] left-0 bottom-0 items-center">
+            <div className="flex sm:relative absolute bg-white sm:w-[100%] w-[100vw] h-[8vh] left-0 bottom-0 items-center">
                 <button type="submit" className="ml-auto bg-primary-marineBlue text-white border-0 rounded-md px-6 py-3 hover:opacity-75 mr-4 sm:mr-0">Next step</button>
             </div>
         </form>

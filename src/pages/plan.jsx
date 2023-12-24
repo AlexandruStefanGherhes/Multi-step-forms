@@ -61,7 +61,7 @@ const Plan = () =>{
 
 
     return(
-        <form className="sm:basis-[60%] w-[300px] sm:w-[100%] h-[29rem] sm:pr-[80px] " onSubmit={onSubmit} >
+        <form className="sm:basis-[60%] w-[300px] sm:w-[100%] h-[25rem] sm:pr-[80px] " onSubmit={onSubmit} >
             <div className="">
                 <h1 className="sm:mt-10 mt-1 text-2xl md:text-3xl font-[800] mb-2 text-primary-marineBlue">Select your plan</h1>
                 <h4 className="text-neutral-coolGray  w-4/5 md:w-full mb-6">You have the option of monthly or yearly billing</h4>
@@ -138,7 +138,7 @@ const Plan = () =>{
             Yearly
         </p>
         </div>
-            <div className="flex sm:relative absolute bg-white sm:w-[100%] w-[100vw] h-[10vh] left-0 bottom-0 justify-between items-center">
+            <div className="flex sm:relative absolute bg-white sm:w-[100%] w-[100vw] h-[8vh] left-0 bottom-0 justify-between items-center">
                 <button type="" className="text-neutral-coolGray font-[500] capitalize transition-all duration-300 hover:text-primary-marineBlue cursor-pointer ml-4 sm:ml-0" onClick={()=>{navigate("/") ; setCounter(counter - 1)}}>Go back</button>
                 <button type="submit" className="ml-auto bg-primary-marineBlue text-white border-0 rounded-md px-6 py-3 hover:opacity-75 mr-4 sm:mr-0">Next step</button>
             </div>

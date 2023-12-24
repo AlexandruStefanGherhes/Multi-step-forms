@@ -65,7 +65,7 @@ const Addon = () =>{
                     )
                 })}
             </div>
-            <div className="flex sm:relative absolute bg-white sm:w-[100%] w-[100vw] h-[10vh] left-0 bottom-0 justify-between items-center sm:mt-11">
+            <div className="flex sm:relative absolute bg-white sm:w-[100%] w-[100vw] h-[8vh] left-0 bottom-0 justify-between items-center sm:mt-11">
                 <button type="" className="text-neutral-coolGray font-[500] capitalize transition-all duration-300 hover:text-primary-marineBlue cursor-pointer ml-4 sm:ml-0" onClick={()=>{navigate('/plan');setCounter(counter -1)}}>Go back</button>
                 <button type="submit" className="ml-auto bg-primary-marineBlue text-white border-0 rounded-md px-6 py-3 hover:opacity-75 mr-4 sm:mr-0">Next step</button>
             </div>
